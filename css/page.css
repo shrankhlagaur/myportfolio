@@ -1,4 +1,14 @@
 /**********************Home Page*******************/
+body{
+      background-image: url(../Images/scott-graham-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+   /* background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);*/
+
+}
+   
+
 header h1{
   /*background-color: #666;
   padding: 30px;
@@ -21,7 +31,12 @@ nav {
   float: left;
   width: 20%;
   height: 1000px; /* only for demonstration, should be removed */
-  background: #ccc;
+  /*background: #ccc;
+   background-image: url(../Images/Rose%20Colored%20Lenses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: 0.7;*/
+    /*ackground-color: lightgray;*/
   padding: 20px;
 }
 
@@ -35,7 +50,13 @@ article {
       float: right;
     padding: 20px;
     width: 71.4%;
-    background-color: #f1f1f1;
+   /* background-color: #f1f1f1;*/
+    /*background-image: url(../Images/back1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+   
+    opacity: 0.7;
+
     height: 1000px; /* only for demonstration, should be removed */
 }
 #main{
@@ -129,17 +150,24 @@ footer {
 
 
 /******************Main Blogs***********************/
-
+#main{
+    background-color: white;
+    
+}
 .wrapper
 {
   height: 800px;
   min-height: 800px;
-    background-color: white;
+    /*background-color: white;*/
+     /* background-image: url(../Images/annie-spratt-V1lmayjfBJc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+   
     position: relative;
   z-index: 1;
 }
 #main h2{
-    margin-top: 1100px;
+   /* margin-top: 1100px;*/
     margin-left: 20%;
     margin-right: 20%;
       font-family: 'Open Sans', sans-serif;
