@@ -1,4 +1,8 @@
 /**********************Home Page*******************/
+html {
+    scroll-behavior: smooth;
+}
+
 body{
       background-image: url(../Images/scott-graham-unsplash.jpg);
     background-repeat: no-repeat;
